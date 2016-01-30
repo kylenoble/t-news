@@ -28,6 +28,7 @@
     "dotenv": "^2.0.0",
     "ejs": "~0.8.5",
     "express": "~4.0.0",
+    "mongoose": "^4.3.7",
     "morgan": "~1.0.0",
     "node-compass": "0.2.3",
     "sentiment": "^1.0.5",
