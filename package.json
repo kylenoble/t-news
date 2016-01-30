@@ -1,0 +1,40 @@
+{
+  "name": "t-news",
+  "private": true,
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kylenoble/t-news.git"
+  },
+  "description": "Streaming Twitter News.",
+  "author": "Kyle Noble <kyle.nobl@gmail.com>",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-nodemon": "latest",
+    "gulp-watch": "~0.6.4",
+    "gulp-jshint": "latest",
+    "gulp-livereload": "^1.5.0",
+    "gulp-env": "^0.2.0",
+    "gulp-lab": "^1.0.5",    
+    "bower": "latest",
+    "better-console": "^0.2.4",
+    "chai": "^2.2.0",
+    "lab": "^5.5.1"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5",
+    "express": "~4.0.0",
+    "morgan": "~1.0.0",
+    "node-compass": "0.2.3",
+    "sentiment": "^1.0.5",
+    "static-favicon": "~1.0.0",
+    "twitter": "^1.2.5"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "start": "gulp serve"
+  }
+}
