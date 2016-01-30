@@ -1,6 +1,6 @@
 FROM node:0.12
 
-MAINTAINER Matthias Sieber <matthiasksieber@gmail.com>
+MAINTAINER Kyle Noble <kyle.nobl@gmail.com>
 
 EXPOSE 8000
 
