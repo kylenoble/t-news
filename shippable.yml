@@ -14,7 +14,7 @@ install:
   - npm install
 env:
  global:
-    - secure: YOURSECRETENVVARIABLESENCODEDHERE
+    - secure: hNn595o4HjW+k2Clzt3htEjvymS9ElyAuVAEdv1Am2q6RKigYJWh7nAToO5agqwLUJm+DJ6BHB3N3x/Tg+qhwBa77ds1lPpq6QqAMBpqDxtn4P1UIRck+mFq3gUCckj97UyggleFrRoMGhVzCV8484R9cg7ArtX3GyZJUix0VQzLvfvDWofUf4B1XtV465rbXgpuFktXmwHH2eWlmjR1ykFLGOkrFunCYNpJ/ZT3w4SS01Vog7x/dEotu16Gi5G+wdocG7K04SWESldCGp2sUk3v2aXS0RiavzOSsjkHSBVfpzVvYE1LG8aPVe48FuU45Q1f/kHOcK5WIb09W5JCyH9Uuddf9qWBO/P4c0vllbXE4ly6O5OSTD1Jqzdq4D8SGnRm3Mg3rm0vQxuHRmsF1OrM8ZO+d7AGInDeLCcfI8p6d3qYK5ASzxSsqLh51RlU2WoxvabIPIwuylCu39VvntfkZLit5dsCmchQauv6aG3fWd8z5D2cfCj6uX55Kj9DiM6DyvS05pFwVibjoL/G86P2tvj7ft9oAyjWyyKjlwAYeYx05wlExXRQuEd15lhIUztcht4rz+f8gmd0rXv1PiqfVxeBznpeE09k/whJ5sME4RxXONo6g1CbHLlQhaMgmp3/P2Ht721yyeB1y9TmMG1ku6E1pVBptvpFZc4HTrA=
 before_script:
   - mkdir -p ~/.aws
   - echo '[profile eb-cli]' > ~/.aws/config
